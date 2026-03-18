@@ -21,4 +21,4 @@ jobs:
 
     - name: Trigger Jenkins
       run: |
-        curl -X POST "http://<your-ip>:8081/job/deploy-to-tomcat/build?token=build123"
+        curl -X POST "http://20.2.140.51:8081/job/deploy-to-tomcat/build?token=build123"
